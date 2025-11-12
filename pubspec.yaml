@@ -1,0 +1,39 @@
+name: moneyquest
+description: A gamified personal finance tracker app that makes budgeting fun.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # Charts and Visualization
+  fl_chart: ^0.65.0
+  
+  # Date handling
+  intl: ^0.18.1
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment to add assets
+  # assets:
+  #   - assets/icons/
